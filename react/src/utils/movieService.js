@@ -6,7 +6,7 @@ const movieFields = `
     ;
 
 export const getMovies = async () => {
-    const data = await client.fetch(`*[_type == "movie"]{$movieFields}`);
+    const data = await client.fetch(`*[_type == "movie"]{${movieFields}}`);
     return data;
 };
 

@@ -12,7 +12,6 @@ const Movies = () => {
     
     return (
         <>
-        {movie?.length > 0 ? <p>{JSON.stringify(movie)}</p> : null}
         <button type="button" onClick={handleClick}>Show me the movies</button>
         {movie.map(movie => <Movie title={movie.title} actor={movie.actor} />)}
         </>

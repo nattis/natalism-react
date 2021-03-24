@@ -10,5 +10,5 @@ const actor = {
             description: 'Dette er navnet'
         }
     ]
-}
+};
 export default actor;
